@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Objects Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>Falling Objects Game</h1>
+        <p>Use as teclas <b>Espaço</b> para mudar de direção e <b>Shift</b> para acelerar.</p>
+        <button id="start-button">Play</button>
+    </div>
+    <div id="game-container">
+        <div id="character"></div>
+        <div id="score">Score: 0</div>
+        <div id="level">Level: 1</div>
+    </div>
+    <div id="game-over-screen">
+        <p>Game Over!</p>
+        <p id="final-score">Final Score: 0</p>
+        <button id="restart-button">Restart</button>
+        <div id="high-scores">
+            <h2>High Scores</h2>
+            <ul id="high-scores-list"></ul>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
